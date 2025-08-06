@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+
+/* .btn{
+    @apply   px-7 py-3 bg-blue-500 rounded-lg m-5 text-white font-semibold
+     shadow-xl hover:translate-y-1 duration-500;
+}
+
+.btn-primary{
+        @apply bg-blue-400  text-white hover:text-blue-100;
+} */
+
+@layer components{
+        .form-control{
+         @apply border rounded-lg px-2 py-3 mb-5
+        w-full focus:outline-dashed focus:border-0 focus:outline-slate-300
+        placeholder:text-slate-400;
+        }
+        .center{
+         @apply flex  justify-center items-center min-h-screen space-y-3;
+
+}
+}
